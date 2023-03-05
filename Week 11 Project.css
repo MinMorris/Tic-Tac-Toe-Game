@@ -1,0 +1,53 @@
+body{
+    background: #f7f7f7;
+    color: #cd9696;
+  }
+  h1{
+    text-align: center;
+    color: #cd9696;
+  }
+  .clearfix{
+    clear: both;
+  }
+  #box{
+    width: 350px;
+    overflow: auto;
+    margin: 40px auto;
+    background: #c7c6c6;
+    padding-bottom: 40px;
+    border-radius: 10px;
+  }
+  #message{
+    background: #8c8c8c;
+    color: #ffffff;
+  }
+  #gameBoard li{
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    background: #595959;
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+  }
+  #gameBoard li:hover, #reset:hover{
+    cursor: pointer;
+    background: #000;
+  }
+  #reset{
+    border: 0;
+    background: #595959;
+    color: #ffffff;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  footer{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
